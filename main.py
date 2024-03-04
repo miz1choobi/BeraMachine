@@ -58,7 +58,7 @@ def main():
                 print()
             elif answer == 'classic_routes_gen':
                 generator = RouteGenerator()
-                are_you_sure(generator.classic_routes_json_save, gen_route=True)
+                are_you_sure(generator.classic_routes_json_save, gen_route=false)
             elif answer == 'exit':
                 sys.exit()
             else:
